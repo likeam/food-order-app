@@ -13,11 +13,11 @@ const Cart = (props) => {
             <span>1200</span>
         </div>
         <div className={classes.actions}>
-            <button className={classes['button--alt']}>Close</button>
+            <button className={classes['button--alt']}>CloseX</button>
             <button className={classes.button}>Order</button>
         </div>
     </div>
   )
 }
 
-export default Cart;
+export default Cart ;
